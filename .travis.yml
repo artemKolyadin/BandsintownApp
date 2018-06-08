@@ -1,5 +1,4 @@
 language: objective-c
 script: 
-  - xcodebuild build-for-testing -workspace CLI.xcworkspace -scheme
-              CLI -destination generic/platform=iOS
-              
+  - xcodebuild build-for-testing -workspace TestApiRequest.xcworkspace -scheme
+              TestApiRequest -destination generic/platform=iOS
