@@ -1,2 +1,4 @@
 language: objective-c
-script: - xcodebuild build-for-testing -workspace “TestApiRequest.xcworkspace” -scheme “TestApiRequest” -destination “platform=iOS Simulator,name=iPhone SE,OS=11.0” -derivedDataPath “build”
+script: 
+  - xcodebuild build-for-testing -workspace TestApiRequest.xcworkspace -scheme
+              TestApiRequest -destination generic/platform=iOS
