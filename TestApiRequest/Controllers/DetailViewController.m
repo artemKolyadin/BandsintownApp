@@ -28,6 +28,7 @@ static const NSString *kArtistListKey = @"artistList";
     
     self.artistNameLabel.text=self.artist.name;
     
+    
     // Prepare artistName string for insert into request URL
     NSString* artistNameForRequest = [self.artist.name stringByTrimmingCharactersInSet:
                   [NSCharacterSet whitespaceAndNewlineCharacterSet]];
